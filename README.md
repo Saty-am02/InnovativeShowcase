@@ -16,19 +16,19 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## Doaremon
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/4079f27f-2a41-4df6-b42e-c1c0475739e7)
 ## Lane
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/e0d5cc80-ad28-437d-9f1e-25c654aa0688)
 ## React logo
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/8c0220ff-5007-4baa-b6c1-900578ec21ee)
 ## Youtube logo
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/efd8f267-aeb7-42fb-8600-e25d1ee69325)
 ## billiard 
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/33f0e94c-381c-4a10-a914-d9c755488e59)
 
 ## projects
 
