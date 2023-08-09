@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ballpool</title>
+    <style>
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .box
+        {
+        height: 650px;
+        width: 400px;
+        border: 15px solid rgb(86, 20, 20);
+        background-color: green;
+        position: relative;
+        top: 100px;
+        overflow:hidden ;
+        border-radius: 15px;
+        }
+       .light
+       {
+        height: 30px;
+        width: 30px;
+        background-color: black;
+        top: 10px;
+        position: absolute;
+        z-index: 21;
+       }
+       .light::before
+       {
+        
+        content: '';
+        position: relative;
+        border-left: 49px solid transparent;
+        border-right: 49px solid transparent;
+        border-bottom: 307px solid yellow;
+        top: -10px;
+        left: -34px;
+        -webkit-filter: blur(3px);
+        opacity: 0.5;
+        z-index: 20;
+       }
+       .light::after
+       {
+        
+        content: '';
+    position: relative;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 246px;
+    left: -34px;
+    opacity: 0.9;
+    z-index: 20;
+    display: block;
+    -webkit-filter: blur(3px);
+}
+       
+       .holes
+       {
+        height: 50px;
+        width: 50px;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        top:-10px;
+        left: -10px;
+        box-shadow: 
+        366px 1px black, 379px 300px black, 369px 619px black, -8px 300px black, 3px 620px black
+       }
+       
+       .yellow
+       {
+        height: 35px;
+        width: 35px;
+        background-color: yellow;
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
+        left:100px;
+        animation: yelloww 2s forwards linear 4.5s;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       }
+       .white
+       {
+        height: 35px;
+        width: 35px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        top: 250px;
+        left:50px;
+        animation: whitee 10s forwards linear 0.5s;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       }
+       .blue
+       {
+        height: 35px;
+    width: 35px;
+    background-color: rgb(29, 29, 251);
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left: 334px;
+     animation: bluee 1s forwards linear 2.2s;
+     align-items: center;
+        justify-content: center;
+        display: flex;
+       }
+       .black
+       {
+        height: 35px;
+        width: 35px;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        top: 26px;
+        left: 265px;
+        animation: blackk 2s forwards linear 3.5s;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+       }
+       .red
+       {
+        height: 35px;
+        width: 35px;
+        background-color: red;
+        border-radius: 50%;
+        position: relative;
+        top: 315px;
+        left: 76px;
+        animation: redd 2s forwards linear 8.5s;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       }
+       .pink
+       {
+        height: 35px;
+        width: 35px;
+        background-color: pink;
+        border-radius: 50%;
+        position: relative;
+        top: 207px;
+        left: 290px;
+        animation: pinkk 2s forwards linear 6.5s;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       }
+       .span1
+       {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        animation:ballnumber  1s infinite linear 4.5s;
+       
+       }
+       .span2
+       {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        animation: ballnumber 1s infinite linear 3.5s;
+        color: white;
+        
+       }
+       .span3
+       {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        animation:ballnumber  1s infinite linear 2.2s;
+       
+       }
+       .span4
+       {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        animation:ballnumber  1s infinite linear 8.5s;
+       
+       }
+       .span5
+       {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        align-items: center;
+        animation:ballnumber  1s infinite linear 6.5s;
+       
+       }
+       .stick
+       {
+        height: 290px;
+        width: 10px;
+        background-color: black;
+        position: relative;
+        rotate: 53deg;
+        top: 271px;
+        left: -545px;
+        animation: stick 0.5s forwards linear;
+       }
+       @keyframes whitee {
+        0% {
+    transform: translate(0px,0px);
+}
+20% {
+    transform: translate(313px,-104px);
+    animation-play-state: paused;
+}
+40% {
+    transform: translate(81px,-218px);
+}
+60% {
+    transform: translate(218px,77px);
+}
+80% {
+    transform: translate(61px,155px);
+}
+100% {
+    transform: translate(81px,276px);
+       }
+}
+       @keyframes yelloww {
+        0% {
+             transform: translate(0px,0px);
+            }
+        100% {
+         transform: translate(-100px,-99px);
+         visibility: hidden;
+        }
+       }
+       @keyframes blackk {
+        0% {
+             transform: translate(0px,0px);
+            }
+        100% {
+            transform: translate(96px,-145px);
+            visibility: hidden;
+        }
+       }
+       @keyframes bluee {
+        0% {
+             transform: translate(0px,0px);
+            }
+        100% {
+            transform: translate(53px,21px);
+         visibility: hidden;
+        }
+       }
+       @keyframes pinkk {
+        0% {
+             transform: translate(0px,0px);
+            }
+        100% {
+            transform: translate(79px,185px);
+         visibility: hidden;
+        }
+       }
+       @keyframes redd {
+        0% {
+             transform: translate(0px,0px);
+            }
+        100% {
+            transform: translate(-85px,121px);
+         visibility: hidden;
+        }
+       }
+       @keyframes stick {
+        0% {
+             transform: translate(0px,0px);
+            }
+
+        100% {
+            transform: translate(0px,-77px);
+        }
+       }
+       @keyframes ballnumber {
+        0% {
+             transform: rotate(0deg);
+            }
+
+        100% {
+            transform: rotate(360deg);
+        }
+       }
+       
+    </style>
+</head>
+<body>
+ <div class="container">
+
+    <div class="box">
+        <div class="holes"></div>
+        <div class="yellow">
+            <span class="span1">4</span>
+        </div>
+        <div class="white"></div>
+        <div class="black">
+            <span class="span2">8</span>
+        </div>
+        <div class="blue">
+            <span class="span3">2</span>
+        </div>
+        <div class="red">
+            <span class="span4">1</span>
+        </div>
+        <div class="pink">
+            <span class="span5">9</span>
+        </div>
+    </div>
+    <div class="stick"></div>
+    <div class="light"></div>
+ </div>
+</body>
+</html>
