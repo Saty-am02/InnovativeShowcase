@@ -9,18 +9,25 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 **Live pages:** 
 ## moon
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## SolarSystem
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## Doaremon
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## Lane
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## React logo
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## Youtube logo
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 ## billiard 
 
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 
 ## projects
 
@@ -31,15 +38,6 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 - React Animated logo.
 - Youtube Animated logo.
 - billiard Animated Game.
-
-## Screenshot
-
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
 
 ## Contributing
 
