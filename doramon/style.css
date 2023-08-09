@@ -415,25 +415,25 @@ z-index: 100;
 {
   0%   { transform:translateY(-100px);}
   /* 50% { transform:translateY(100px);} */
-  100% { transform:translateY(800px);}
+  100% { transform:translateY(1300px);}
 }
 @keyframes cloud2
 {
   0%   { transform:translateY(0px);}
   /* 50% { transform:translateY(100px);} */
-  100% { transform:translateY(1200px);}
+  100% { transform:translateY(1100px);}
 }
 @keyframes cloud3
 {
   0%   { transform:translateY(0px);}
   /* 50% { transform:translateY(100px);} */
-  100% { transform:translateY(1000px);}
+  100% { transform:translateY(1200px);}
 }
 @keyframes cloud4
 {
   0%   { transform:translateY(-800px);}
   /* 50% { transform:translateY(100px);} */
-  100% { transform:translateY(800px);}
+  100% { transform:translateY(1100px);}
 }
 .bcopter
 {
