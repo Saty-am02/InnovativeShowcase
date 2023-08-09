@@ -9,8 +9,7 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 **Live pages:** 
 ## moon
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/5786603d-9014-425d-a3cc-5138661202e9
-)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/9d7cd74e-8b33-4cf6-95a6-8ff27cc4e9fd)
 ## SolarSystem
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/ee5d4a30-91f7-49f9-afdf-4f89f6cc4d4e)
