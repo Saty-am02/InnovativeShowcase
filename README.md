@@ -9,25 +9,25 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 **Live pages:** 
 ## moon
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/9d7cd74e-8b33-4cf6-95a6-8ff27cc4e9fd)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/63dba35e-9a51-4cf3-862d-108f6be62299)
 ## SolarSystem
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/ee5d4a30-91f7-49f9-afdf-4f89f6cc4d4e)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ef6794cf-cd72-424b-a2a9-f841213f3dc6)
 ## Doaremon
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/4079f27f-2a41-4df6-b42e-c1c0475739e7)
 ## Lane
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/6fe980f4-23f9-4cbf-a49d-e5d33ba4189c)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ec9446ee-759f-4fcb-b909-47cd408357dc)
 ## React logo
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/8c0220ff-5007-4baa-b6c1-900578ec21ee)
 ## Youtube logo
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/efd8f267-aeb7-42fb-8600-e25d1ee69325)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/078b42b9-c267-47da-8f16-e2d3d5e9438c)
 ## billiard 
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/33f0e94c-381c-4a10-a914-d9c755488e59)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ed044e24-efa1-4379-9bb8-120830175bd1)
 
 ## projects
 
