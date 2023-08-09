@@ -13,7 +13,7 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 )
 ## SolarSystem
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/ee5d4a30-91f7-49f9-afdf-4f89f6cc4d4e)
 ## Doaremon
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/4079f27f-2a41-4df6-b42e-c1c0475739e7)
