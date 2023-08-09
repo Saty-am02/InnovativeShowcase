@@ -1,1 +1,104 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>react logo</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+    body
+    {
+        background-color: rgb(8, 8, 8);
+        
+    }
+    .container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ring1
+    {
+        height: 300px;
+    width: 80px;
+    border-radius: 50%;
+    border: 10px solid aqua;
+    position: absolute;
+    top: 140px;
+    animation: react 3s infinite linear;
+    transition: all 1s;
+    }
+    .ring2
+    {
+        height: 300px;
+    width: 80px;
+    border-radius: 50%;
+    border: 10px solid aqua;
+    rotate: 120deg;
+    position: absolute;
+    top: 140px;
+    animation: react 3s infinite linear ;
+    transition: all 1s;
+    }
+    .ring3
+    {
+    height: 300px;
+    width: 80px;
+    border-radius: 50%;
+    border: 10px solid aqua;
+    rotate: 60deg;
+    position: absolute;
+    top: 140px;
+    animation: react 3s infinite linear;
+    transition: all 1s;
+    }
+    .circle
+    {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    top: 270px;
+    }
+    .font
+    {
+        
+        font-weight: bold;
+        font-size: 2em;
+        position: relative;
+        color: aqua;
+        top: 500px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @keyframes react {
+        0%
+        {
+            transform:rotate(0deg);
+        }
+        100%
+        {
+            transform:rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="ring1" id="font"></div>
+        <div class="ring2" id="font"></div>
+        <div class="ring3" id="font"></div>
+        <div class="circle" ></div>
+    </div>
+   <div class="container2">
+    <span class="font" >R E A C T&emsp;J S</span>
+   </div>
+</body>
+</html>
