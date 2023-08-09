@@ -21,13 +21,13 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ec9446ee-759f-4fcb-b909-47cd408357dc)
 ## React logo
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/8c0220ff-5007-4baa-b6c1-900578ec21ee)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/dc3727e8-839a-4836-99a4-bc71217680c7)
 ## Youtube logo
 
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/078b42b9-c267-47da-8f16-e2d3d5e9438c)
 ## billiard 
 
-![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ed044e24-efa1-4379-9bb8-120830175bd1)
+![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/eb5301b8-16ef-4524-bbd6-5d55d9500fa1)
 
 ## projects
 
