@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <style>
+       
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+        body
+        {
+            background-color: black;
+        }
+        .container
+        {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            top: 310px;
+            position: relative;
+            z-index: 10;
+            
+        }
+        
+        .triangle
+        {   
+            align-self: center;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 75px solid white;
+    rotate: 90deg;
+    z-index: 50;
+    margin-left: -160px;
+   
+            
+        }
+        .box 
+        {
+      position: relative;
+      width: 250px;
+      height: 190px;
+      margin: 20px 0;
+      background: red;
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+      z-index: 20;
+      
+    }
+
+     .box:before {
+      content: '';
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      right: -5%;
+      left: -5%;
+      background: inherit;
+      border-radius: 5% / 50%;
+      
+    } 
+    h1
+    {
+    transition: 0.2s ease;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    margin-top: 72px;
+    padding: 50px;
+    position: relative;
+    margin-left: 105px;
+    } 
+    .triangle:hover
+        {
+        transform: scale(110%);
+        }
+    </style>
+    <script>
+        function myFunction() {
+         demo.style.margin= "0 500px 0 0";
+         con.style.opacity="1";
+         con.style.margin= "72px -200px 0px 0px";
+        }
+        function conn()
+        {
+         demo.style.margin= "inherit";
+         con.style.opacity="0";
+         con.style.pading="50px";
+        }
+    </script>
+</head>
+<body >
+<div class="main">
+   <div class="container" ondblclick="myFunction()" id="demo">
+    <span class="box"></span>
+    <span class="triangle" onclick="conn()"></span>
+   </div>
+   <h1 id="con" >YouTube</h1>
+</div>   
+</body>
+</html>
