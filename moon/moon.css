@@ -1,0 +1,180 @@
+*
+{
+background-color: rgb(15, 0, 15);
+}
+body
+{
+    justify-content: center;
+    align-content: center;
+}
+.moon
+{   
+    overflow: hidden;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(249 250 240);
+    top: 20%;
+    transform: translateX(700px);
+    box-shadow:  -5px -5px 28px #949494;
+   
+}
+.c1
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:solid black ;
+    align-items: center;
+    margin:50px ;
+    border-bottom: grey;
+    background: #6b6a6a21;
+    z-index: 10;
+}
+.c2
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:solid black ;
+    align-items: center;
+    margin-top:170px ;
+    margin-left: 200px;
+    border-bottom: grey;
+    background: #6b6a6a21;
+}
+.c3
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border:solid black ;
+    align-items: center;
+    margin:50px ;
+    border-bottom: grey;
+    background: #6b6a6a21;
+}
+.c4
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:solid black ;
+    align-items: center;
+    margin-top: 230px;
+    margin-left: 80px;
+    scroll-margin:50px ;
+    border-left: grey;
+    background: #6b6a6a21;
+}
+.moon2
+{
+        position: absolute;
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        background-color: black;
+        top: 20%;
+        margin-left: 50px;
+        filter: blur(2px);
+        border:solid 1px rgba(#000, .2);
+        animation-name: moon;
+        transition: 0.5s linear ease-in-out;
+        animation-duration:30s;
+        animation-iteration-count: infinite;
+       
+}
+@keyframes moon
+{
+    0% {
+		
+        transform: translate(120px, -310px);
+	}
+	100% {
+        transform: translate(-250px, 210px);
+	}
+}
+.star
+{   
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    box-shadow: 
+    1299px 124px 0 0 white,
+    552px 221px 0 0 white, 
+    329px 400px 0 0 white,
+    1233px 552px 0 0 white,
+    1201px 38px 0 0 white,
+    487px 500px 0 0 white,
+    260px 800px 0 0 white,
+    225px 652px 0 0 white,
+    703px 669px 0 0 white,
+    600px 828px 0 0 white,
+    1203px 253px 0 0 white,
+    46px 520px 0 0 white,
+    280px 256px 0 0 white,
+    1146px 774px 0 0 white, 
+    713px 476px 0 0 white,
+    20px 199px 0 0 white,
+    1361px 642px 0 0 white,
+    20px 12px 0 0 white,
+    20px 22px 0 0 white;
+}
+.star1
+{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: 353px;
+    left: 50px;
+    box-shadow: 943px 282px 0 0 white, 971px -198px 0 0 white, 312px -279px 0 0 white, 214px 315px 0 0 white;
+    animation-name: hor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.star1 .hor
+{
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    border-radius: 50%;
+    background:white;
+    transform: translateX(-9px);
+    top: 3.7px;
+    box-shadow: 943px 282px 0 0 white, 971px -198px 0 0 white, 312px -279px 0 0 white, 214px 315px 0 0 white;
+    transition: ease-in-out;
+    animation-name: hor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+.star1 .ver
+{
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    border-radius: 50%;
+    background:white;
+    transform: translateX(3px);
+    top: -10px;
+    box-shadow: 943px 282px 0 0 white, 971px -198px 0 0 white, 312px -279px 0 0 white, 214px 315px 0 0 white;
+    animation-name: hor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes hor {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
