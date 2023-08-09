@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=0.5">
+<title>solarsystem</title>
+<link rel="stylesheet" href="solsrsystem.css">
+</head>
+<body>
+  <h1 id="planet" class="planet"></h1>
+  
+<div class="solar" id="solar">
+  <div class="sun" id="sun"></div>
+  <div class="orbit_mercury">
+    <span class="mercury"> </span>
+   </div>
+   <div class="orbit_venus">
+    <span class="venus"> </span>
+   </div>
+   <div class="orbit_earth">
+    <span class="earth"> 
+      <div class="moon_orbit">
+        <span class="moon"></span>
+      </div>
+    </span>
+   </div>
+   <div class="orbit_marsh">
+    <span class="marsh"> </span>
+   </div>
+   <div class="astriod"></div>
+   <div class="orbit_jupiter">
+    <span class="jupiter"></span>
+   </div>
+   <div class="orbit_saturn">
+    <span class="saturn">
+      <div class="astriod_saturn"></div>
+    </span>
+   </div>
+   <div class="orbit_urans">
+    <span class="urans"></span>
+   </div>
+   <div class="orbit_neptune">
+    <span class="neptune"></span>
+   </div>
+  </div>
+  <input type="range" name="100" id="Zoom" min="9" max="50">
 
+  <script>
+    // let zoom=document.getElementById("Zoom").value;
+    const zoom=document.querySelector('input');
+    const size=document.querySelector('.solar');
+    let sunn=document.querySelector('.sun');
+    let name=document.querySelector('.planet');
+    zoom.addEventListener('input',function()
+    {
+      const range=zoom.value / 25;
+      console.log(range);
+      size.style.scale=range;
+      const top=range*50+15;
+      const left=range*50+10;
+      const topp=range*30-100;
+      const leftt=range*30-100;
+      if(range>=1.2)
+      {
+        size.style.left=leftt+"vw";
+        size.style.top=topp+20+"vh";
+      }
+      if(range<=0.8)
+      {
+        size.style.left=left+"vw";
+        size.style.top=top+"vh";
+        
+      }
+    })
+    sunn.addEventListener('mouseup',function()
+    {
+      document.getElementById('planet').textContent="sun";
+    })
+
+  </script>
+</body>
+</html>
