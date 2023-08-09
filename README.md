@@ -18,7 +18,7 @@ This repository contains the code for my Innovative pages, showcasing my innovat
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/4079f27f-2a41-4df6-b42e-c1c0475739e7)
 ## Lane
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/e0d5cc80-ad28-437d-9f1e-25c654aa0688)
+![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/6fe980f4-23f9-4cbf-a49d-e5d33ba4189c)
 ## React logo
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/8c0220ff-5007-4baa-b6c1-900578ec21ee)
