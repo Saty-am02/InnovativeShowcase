@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lane</title>
+    <style>
+      body
+      {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .box
+      {
+        height: 700px;
+        width: 1200px;
+        border: 5px solid black;
+        position: relative;
+        top: 50px;
+        display: flex;
+        overflow: hidden;
+      }
+      .lane1
+      {
+        height: 710px;
+        width: 285px;
+        background-color: black;
+        position: relative;
+        border: 5px solid white;
+        top: -5px;
+        display: flex;
+        justify-content: center;
+      }
+      .lane2
+      {
+        height: 710px;
+        width: 285px;
+        background-color: black;
+        position: relative;
+        border:5px solid white;
+        top: -5px;
+        display: flex;
+        justify-content: center;
+      }
+      .lane3
+      {
+        height: 710px;
+        width: 285px;
+        background-color: black;
+        position: relative;
+        border: 5px solid white;
+        top: -5px;
+        display: flex;
+        justify-content: center;
+      }
+      .lane4
+      {
+        height: 710px;
+        width: 285px;
+        background-color: black;
+        position: relative;
+        border: 5px solid white;
+        top: -5px;
+        display: flex;
+        justify-content: center;
+      }
+      .divider
+      {
+        height: 710px;
+        width: 60px;
+        background-color: grey;
+        position: relative;
+        top: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .whitestrip
+      {
+         height:100px ;
+         width: 20px;
+         background-color: white;
+         position: relative;
+         box-shadow: 0px 265px white, 0px 510px white, 0px 693px white;
+         animation: whitestrip 4s infinite linear;
+      }
+      .pole
+      {
+        
+         width: 10px;
+         border-bottom: 400px solid black;
+         border-left: 10px solid transparent;
+         border-right: 10px solid transparent;
+         position: relative;
+      }
+
+      .light
+       {
+        height: 30px;
+        width: 30px;
+        background-color: black;
+        top: -10px;
+        left: -34px;
+        position: absolute;
+        z-index: 21;
+        rotate: 45deg;
+        border: 1px solid grey;
+       }
+       .light::before
+       {
+        
+        content: '';
+        position: relative;
+        border-left: 49px solid transparent;
+        border-right: 49px solid transparent;
+        border-bottom: 307px solid yellow;
+        -webkit-filter: blur(3px);
+        opacity: 0.5;
+        z-index: 20;
+        top: -10px;
+        left: -34px;
+       }
+       .light::after
+       {
+        
+        content: '';
+    position: relative;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 246px;
+    left: -34px;
+    opacity: 0.9;
+    z-index: 20;
+    display: block;
+    -webkit-filter: blur(3px);
+}
+.light2
+       {
+        height: 30px;
+    width: 30px;
+    background-color: black;
+    top: -10px;
+    position: absolute;
+    z-index: 21;
+    left: 13px;
+    rotate: 315deg;
+    border: 1px solid grey;
+}
+       
+       .light2::before
+       {
+        
+        content: '';
+        position: relative;
+        border-left: 49px solid transparent;
+        border-right: 49px solid transparent;
+        border-bottom: 307px solid yellow;
+        top: -10px;
+        left: -34px;
+        -webkit-filter: blur(3px);
+        opacity: 0.5;
+        z-index: 20;
+       }
+       .light2::after
+       {
+        
+        content: '';
+    position: relative;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 246px;
+    left: -34px;
+    opacity: 0.9;
+    z-index: 20;
+    display: block;
+    -webkit-filter: blur(3px);
+}
+.car1
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 270deg;
+    position: relative;
+    left: -91px;
+    top: -179px;
+    animation: car1 4s infinite linear 2s;
+}
+.car2
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 90deg;
+    position: relative;
+    left: -91px;
+    top: -310px;
+    animation: car2 4s infinite linear;
+    
+}
+.car3
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 270deg;
+    position: relative;
+    left: -91px;
+    top: -179px;
+    animation: car1 4s infinite linear 3s;
+}
+.car4
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 90deg;
+    position: relative;
+    left: -91px;
+    top: -310px;
+    animation: car2 4s infinite linear 1s;
+    
+}
+.car5
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 90deg;
+    position: relative;
+    left: -91px;
+    top: 821px;
+    animation: car3 4s infinite linear 3s;
+}
+.car6
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 270deg;
+    position: relative;
+    left: -91px;
+    top: 643px;
+    animation: car4 4s infinite linear 1s;
+    
+}
+.car7
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 90deg;
+    position: relative;
+    left: -91px;
+    top: 821px;
+    animation: car3 4s infinite linear 4s;
+}
+.car8
+{
+  height: 124px;
+    width: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 270deg;
+    position: relative;
+    left: -91px;
+    top: 643px;
+    animation: car4 4s infinite linear 2s;
+    
+}
+@keyframes car1
+{
+  0%{
+    transform: translateX(0px);
+  }
+  100%
+  {
+    transform: translateX(-1000px);
+  }
+}
+  @keyframes car2 
+  {
+
+  0%{
+    transform: translateX(0px);
+  }
+  100%
+  {
+    transform: translateX(1000px);
+  }
+  }
+  @keyframes car3
+{
+  0%{
+    transform: translateX(0px);
+  }
+  100%
+  {
+    transform: translateX(-1000px);
+  }
+}
+  @keyframes car4
+  {
+
+  0%{
+    transform: translateX(0px);
+}
+
+100% {
+  transform: translateX(1000px);
+  }
+  }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="lane1">
+           <div class="whitestrip">
+            <img src="car1.png" class="car1" alt="">
+            <img src="car2.png" class="car2" alt="">
+           </div>
+        </div> 
+        <div class="lane2">
+            <div class="whitestrip">
+              <img src="car1.png" class="car5" alt="">
+              <img src="car2.png" class="car6" alt="">
+            </div>
+        </div>
+        <div class="divider">
+          <div class="pole">
+          <div class="light">
+          </div>
+          <div class="light2"></div>
+          </div>
+        </div>
+        <div class="lane3">
+            <div class="whitestrip">
+              <img src="car1.png" class="car3" alt="">
+              <img src="car2.png" class="car4" alt="">
+            </div>
+        </div>
+        <div class="lane4">
+            <div class="whitestrip">
+              <img src="car1.png" class="car7" alt="">
+              <img src="car2.png" class="car8" alt="">
+            </div>
+        </div>
+      </div>
+</body>
+</html>
