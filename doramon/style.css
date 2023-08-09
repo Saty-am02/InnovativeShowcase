@@ -409,6 +409,7 @@ z-index: 100;
     left: 30%;
     z-index: 10000;
     top: -200px;
+    background-image:contain:
 
 }
 @keyframes cloud1 
