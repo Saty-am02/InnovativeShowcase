@@ -16,7 +16,7 @@ https://saty-am02.github.io/InnovativeShowcase/solarsystem
 
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ef6794cf-cd72-424b-a2a9-f841213f3dc6)
 ## Doaremon
-https://saty-am02.github.io/InnovativeShowcase/doaremon
+https://saty-am02.github.io/InnovativeShowcase/doramon
 
 ![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/4079f27f-2a41-4df6-b42e-c1c0475739e7)
 ## Lane
@@ -24,11 +24,11 @@ https://saty-am02.github.io/InnovativeShowcase/Lane
 
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/ec9446ee-759f-4fcb-b909-47cd408357dc)
 ## React logo
-https://saty-am02.github.io/InnovativeShowcase/react
+https://saty-am02.github.io/InnovativeShowcase/Reactlogo
 
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/dc3727e8-839a-4836-99a4-bc71217680c7)
 ## Youtube logo
-https://saty-am02.github.io/InnovativeShowcase/youtube
+https://saty-am02.github.io/InnovativeShowcase/Youtubelogo
 
 ![index](https://github.com/Saty-am02/InnovativeShowcase/assets/88832726/078b42b9-c267-47da-8f16-e2d3d5e9438c)
 ## billiard 
